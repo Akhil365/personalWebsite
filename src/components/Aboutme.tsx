@@ -11,3 +11,5 @@ const Aboutme = () => {
         </div>
     )
 }
+
+export default Aboutme;
