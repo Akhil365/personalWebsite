@@ -3,9 +3,16 @@ import React from 'react';
 const Homepage = () => {
     return (
         <div className='Homepage'>
-            <header className='Home-header'>
+            <h1 className='Home-header'>
                 Welcome to my website!
-            </header>
+            </h1>
+            <body>
+                I am Akhil Kanagala. 
+                <br/>
+                I am a 3rd year Computer Science student at the University of Texas at Dallas.
+                <br/>
+
+            </body>
         </div>
     )
 }
