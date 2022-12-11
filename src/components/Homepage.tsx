@@ -1,5 +1,7 @@
 import React from 'react';
 
+const {useState, useEffect} = React;
+
 const Homepage = () => {
     return (
         <div className='Homepage'>
@@ -8,7 +10,7 @@ const Homepage = () => {
                     Welcome to my website!
                 </h1>
             </header>
-            <body className='Personal-description'>
+            <body>
                 I am Akhil Kanagala. 
                 <br/>
                 I am a 3rd year Computer Science student at the University of Texas at Dallas.
